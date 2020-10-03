@@ -1,0 +1,13 @@
+
+data hiding:
+    using private functions
+    using private variables
+    --> __functions is a private method as this cannot be used by the
+        object directly
+    -->
+abstraction
+inheritance
+
+the function which is called automatically is called function
+
+--> a method which can be accessed by and object or a class

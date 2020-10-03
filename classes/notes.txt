@@ -1,0 +1,13 @@
+here the namespace is the class
+
+class method
+static method(class or object can call)(no parameters)
+
+and all other method's namespace is the object
+
+mutator functions = modifying values
+accessor functions = just to access the name of the values
+
+getter = takes the values
+setter = sets the values
+

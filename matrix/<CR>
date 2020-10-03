@@ -1,0 +1,16 @@
+class Matrix:
+    def __init__(self):
+        self.enter_values()
+
+    def enter_values(self):
+        self.value = []
+        x = list(map(int,input().rstrip().split()))
+        while True:
+            if not self.value:
+                self.c = len(x)
+            if not x:
+                self.r = len(self.value)
+                break
+            else:
+                self.value.append(x[:self.c])
+
