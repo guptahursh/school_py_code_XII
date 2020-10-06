@@ -18,7 +18,10 @@ class Bill:
         print("No. of calls:",self._no_of_calls)
         print("Payment Mode:",self._payment_mode)
         print("---------------------------------")
-        print("AMOUNT:",self.amount)
+        if self._payment_mode == 'online':
+            print("AMOUNT:",self.amount,'(with 5% off)')
+        else:
+            print("AMOUNT:",self.amount)
 
     def New_Bill(self):
         self._bill_period = int(input("Enter time in months: "))
