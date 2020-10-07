@@ -10,5 +10,13 @@ class Batsman:
         # fill it in the future
         pass
 
+    def hit(self,run):
+        if run == 4:
+            self.fours += 1
+        elif run == 6:
+            self.sixers += 1
+        self.runsMade += run
+
+
 
 
