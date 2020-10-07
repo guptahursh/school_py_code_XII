@@ -1,0 +1,9 @@
+$ git config credential.helper store
+$ git push https://github.com/repo.git
+
+# enter your username and password
+
+$ git config --global credential.helper 'cache --timeout 7200'
+
+# this is to keep your passwords volatile for only 2 hours after
+which they shall be removed from caching
