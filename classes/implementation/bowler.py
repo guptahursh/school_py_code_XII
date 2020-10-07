@@ -46,7 +46,6 @@ class Bowler:
         No. of wickets taken:\t {self.wicketsTaken}
         """)
 
-Jack = Bowler("Jack","Smith")
 
 
 
